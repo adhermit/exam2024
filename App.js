@@ -1,5 +1,8 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import { createTabNavigator } from '@react-navigation';
+
+const tab = createTabNavigator();
 
 export default function App() {
   return (
